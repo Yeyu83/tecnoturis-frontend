@@ -1,0 +1,9 @@
+<h1>Bienvenido a Hoteles en París</h1>
+<form [formGroup]="form">
+  <label for="name">Nombre:</label><input type="text" formControlName="name">
+  <label for="password">Contraseña:</label><input type="text" formControlName="password">
+</form>
+<div>
+  <button (click)="login()">Entrar</button>
+  <button (click)="openRegistrationDialog()">Registrarse</button>
+</div>
